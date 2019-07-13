@@ -74,7 +74,7 @@ class SongsController < ApplicationController
   end
   
   def set_preferences
-    @preference = Preference.new
+    @preferences = Preference.new
   end
   
 end

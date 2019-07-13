@@ -78,6 +78,5 @@ class SongsController < ApplicationController
     @preference = Preference.new
   end
   
-  end
 end
 

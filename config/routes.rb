@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   # new code
   namespace :admin do
     resources :artists, only: [:index]
+    resources :preferences, only: [:index]
   end
   
 end

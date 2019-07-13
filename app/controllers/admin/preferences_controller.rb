@@ -4,6 +4,10 @@ class Admin::PreferencesController < ApplicationController
     @preference = Preference.new(allow_create_artists: true, allow_create_songs: true, artist_sort_order: "DESC", song_sort_order: "DESC")
   end
   
+  def update
+    
+  end
+  
   private
   
   def preference_params

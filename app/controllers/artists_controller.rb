@@ -56,4 +56,9 @@ class ArtistsController < ApplicationController
   def artist_params
     params.require(:artist).permit(:name)
   end
+  
+  def set_preferences
+    @preferences = Preference.first
+  end
+  
 end

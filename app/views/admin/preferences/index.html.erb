@@ -1,4 +1,4 @@
-<%= form_for @preference, url: admin_preference_path(@preference) do |f| %>
+<%= form_for @preference, admin_preference_path(@preference) do |f| %>
   <p>
     <%= f.label :artist_sort_order %>:
     DESC: <%= f.radio_button :artist_sort_order, "DESC" %>

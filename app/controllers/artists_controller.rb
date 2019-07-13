@@ -57,7 +57,7 @@ class ArtistsController < ApplicationController
   end
   
   def set_preferences
-    @preferences = Preference.first
+    @preferences = Preference.new
   end
   
 end
